@@ -4,11 +4,10 @@ Simplilearn final Project - Medicare
 Capstone Project Medicare
 
 Developer Details:
-Name: Siddhant Mhatre
-Email: mhatre.sid28@gmail.com
+Name: Baba Mantyusi
+Email: doctormantyusi@gmail.com
 Program Name: Medicare
-GitHub Repository: 
-https://github.com/Mscitsid/Medicare..git
+
 
 Program Background :
  Medicare is a company that supplies medicines and a couple of other healthcare essentials at an affordable price. It was established in 2012 in Delhi, India. It had been serving fine all these years, however, the business analysts noticed a decline in sales since 2017. They found out that online ordering of medicines with companies, such as 100mg and mfine are gaining more profits by eliminating middlemen from the equation. As a result, the team decided to hire a Full Stack developer to develop a healthcare web application with a rich and user-friendly interface.
@@ -2247,7 +2246,7 @@ public class ConnectionProvider {
 public static Connection getCon() {
 try {
 Class.forName("com.mysql.cj.jdbc.Driver");
-Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ecommerceproject", "root","2020");
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ecommerceproject", "root","doctormantyusi@1996");
 return con;
 }
 
